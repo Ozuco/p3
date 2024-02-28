@@ -11,10 +11,10 @@
     <div id="inicioCuestionario">
         <p>Este cuestionario trata sobre la historia del mundo. Es muy importante saber de dónde venimos para poder determinar hacia dónde vamos.</p>
         <img id="vieja" src="cuadro.jpg" alt="Imagen del cuestionario" height="300" width="400"> <br>
-        <button>Empezar a jugar</button>
+        <button onclick="empezarJugar()">Empezar a jugar</button>
     </div>
-    <div id="preguntaCuestionario">
-        <h3>Pregunta número</h3>
+    <div id="preguntasCuestionario">
+        <h3 id="numPregunta">Pregunta número</h3>
         <p id="enunciado">
             Este es el enunciado de la pregunta.
         </p>
@@ -23,8 +23,8 @@
         <button id="opc3" class="opcion">Tercera opción</button> <br>
         <button id="opc4" class="opcion">Cuarta opción</button> <br>
     </div>
-    <div id="resultadoCuestionario">
-        <button onclick="sigPregunta()">Siguiente pregunta</button>
+    <div id="respuestaCuestionario">
+        <button>Siguiente pregunta</button>
     </div>
 </body>
 <script src="./index.js"></script>

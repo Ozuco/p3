@@ -25,7 +25,7 @@ let aparecer = (id) =>{
 const getDatosApi = async () => {
     try {
          //llamada a API
-        let peticion = await fetch("https://opentdb.com/api.php?amount=10&category=23&difficulty=hard", {
+        let peticion = await fetch("https://opentdb.com/api.php?amount=10&category=23&difficulty=hard&type=multiple", {
         method: "GET",
         });
 
